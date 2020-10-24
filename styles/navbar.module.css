@@ -1,0 +1,55 @@
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    height: 70px;
+}
+
+.nav_left{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+.nav_left span{
+    color: #fe9688;
+}
+
+
+
+.nav_right{
+    font-family: "Kanit";
+    display: flex;
+    align-items: center;
+    color: rgb(100, 100, 100);
+}
+.nav_right span svg{
+    margin-right: 5px;
+}
+
+.nav_right button{
+    font-family: "Kanit";
+    color: #f87765;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 7px;
+    margin-left: 20px;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+    transition: .5s;
+}
+.nav_right button:hover{
+    background-color: #f87765;
+    color: white;
+}
+.profile_nav{
+    font-family: "Kanit";
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 2px 15px;
+}
+

@@ -1,0 +1,75 @@
+
+
+
+
+
+
+.body{
+    width: 100%;
+    padding: 0 30px;
+}
+
+
+.header{
+    font-family: "Kanit";
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+.header svg{
+    font-size: 35px;
+    color: darkorange;
+    margin-right: 10px;
+}
+
+.roll_container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.roll{
+    font-family: "Kanit";
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgb(177, 177, 177);
+    margin: 20px 0;
+    overflow: hidden;
+}
+.roll_header{
+    
+    height: 60%;
+    background-color: darkorange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.roll_name{
+    font-size: 27px;
+}
+
+.roll_check{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.roll_info{
+    height: calc(100% - 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+.roll_user{
+    color: rgb(99, 99, 99);
+}
+.roll_user svg{
+    margin-right: 5px;
+}

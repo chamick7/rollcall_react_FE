@@ -26,7 +26,7 @@
 }
 
 
-.reg_form{
+.login_form{
   z-index: 3;
   font-family: 'Kanit', sans-serif;
   display: flex;
@@ -42,16 +42,16 @@
   box-shadow: 5px 5px 5px  rgb(173, 173, 173);
 }
 
-.reg_form h1{
+.login_form h1{
   color: #3B47B1;
   text-align: center;
 }
 
-.reg_form h2{
+.login_form h2{
   font-weight: 400;
 }
 
-.reg_form div{
+.login_form div{
   width: 80%;
   border: none;
   background-color: #DAE3E1;
@@ -60,11 +60,11 @@
   letter-spacing: 2px;
   font-size: 22px;
 }
-.reg_form div svg{
+.login_form div svg{
   color: rgba(37, 37, 37, 0.774);
 }
 
-.reg_form input{
+.login_form input{
   font-family: 'Kanit', sans-serif;
   width: 90%;
   background: none;

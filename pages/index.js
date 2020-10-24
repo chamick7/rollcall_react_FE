@@ -12,10 +12,10 @@ export default function Home() {
 
   return (
     <div className={styles.body}>
-      <form className={styles.reg_form}>
+      <form className={styles.login_form}>
         <span>
         <h1>Sign In</h1>
-        <h2>For Start you roll</h2>
+        <h2>For Start you rolls</h2>
         </span>
         <div className={styles.input_email}>
           <FontAwesomeIcon icon={faAt} /> 
